@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "buildCommand": "npm install --prefix FrontEnd && npm run build --prefix FrontEnd && npm install --prefix BackEnd",
-  "outputDirectory": "FrontEnd/build",
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/api/[...path]" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
-}
