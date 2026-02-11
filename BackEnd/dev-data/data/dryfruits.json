@@ -1,0 +1,567 @@
+{
+  "greeting": "Hi, how are you? Who are you?",
+  "Afghanistan": {
+    "Almond": {
+      "bestProvinces": ["Bamyan", "Nangarhar"],
+      "quality": "High",
+      "expectedPricePerKg": "1200 - 1800 PKR",
+      "storage": "Store in an airtight container in a cool, dry place.",
+      "commonUses": ["Snacks", "Baking", "Milk preparation"],
+      "maximumShelfLife": "12 months",
+      "localNames": {
+        "pashto": "بادام",
+        "pashtoRoman": "Badam",
+        "dari": "بادام",
+        "dariRoman": "Badam",
+        "urdu": "بادام",
+        "urduRoman": "Badam"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Good for brain development",
+          "recommendedAmount": "5-10 almonds per day"
+        },
+        "young": {
+          "benefit": "Supports energy and immunity",
+          "recommendedAmount": "10-15 almonds per day"
+        },
+        "middleAge": {
+          "benefit": "Helps maintain heart health",
+          "recommendedAmount": "8-12 almonds per day"
+        },
+        "old": {
+          "benefit": "Eases digestion and strengthens bones",
+          "recommendedAmount": "6-10 almonds per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe in recommended amount. Too much may increase body heat and acidity; too little reduces energy benefits.",
+        "summer": "Safe. Overeating may raise body heat and discomfort; too little reduces benefits.",
+        "spring": "Safe. Excess intake may cause mild digestive issues; too little reduces energy.",
+        "autumn": "Safe. Overeating may increase internal heat; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["India", "UAE"]
+      }
+    },
+    "Pistachio": {
+      "bestProvinces": ["Herat", "Badghis"],
+      "quality": "Medium",
+      "expectedPricePerKg": "2000 - 2600 PKR",
+      "storage": "Keep in a sealed jar in a cool place to maintain crunch.",
+      "commonUses": ["Snacks", "Desserts", "Ice cream topping"],
+      "maximumShelfLife": "10 months",
+      "localNames": {
+        "pashto": "پستې",
+        "pashtoRoman": "Piste",
+        "dari": "پسته",
+        "dariRoman": "Pesteh",
+        "urdu": "پستہ",
+        "urduRoman": "Pista"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Good for growth and memory",
+          "recommendedAmount": "5-8 pistachios per day"
+        },
+        "young": {
+          "benefit": "Provides energy and heart benefits",
+          "recommendedAmount": "10-15 pistachios per day"
+        },
+        "middleAge": {
+          "benefit": "Supports cardiovascular health",
+          "recommendedAmount": "8-12 pistachios per day"
+        },
+        "old": {
+          "benefit": "Promotes brain and bone health",
+          "recommendedAmount": "6-10 pistachios per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Too much may cause cold-related stomach issues; too little reduces energy.",
+        "summer": "Safe. Excess may cause mild digestive discomfort; too little reduces benefits.",
+        "spring": "Safe. Excess may cause digestive issues; too little reduces energy.",
+        "autumn": "Safe. Overeating may cause mild stomach discomfort; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["Turkey", "India"]
+      }
+    },
+    "Cashew": {
+      "bestProvinces": ["Kandahar"],
+      "quality": "Medium",
+      "expectedPricePerKg": "1800 - 2400 PKR",
+      "storage": "Store in airtight container away from sunlight.",
+      "commonUses": ["Snacks", "Cooking", "Desserts"],
+      "maximumShelfLife": "8 months",
+      "localNames": {
+        "pashto": "کاجو",
+        "pashtoRoman": "Kajo",
+        "dari": "کاجو",
+        "dariRoman": "Kajo",
+        "urdu": "کاجو",
+        "urduRoman": "Kaju"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports brain and bone development",
+          "recommendedAmount": "5-10 cashews per day"
+        },
+        "young": {
+          "benefit": "Boosts energy and immunity",
+          "recommendedAmount": "10-15 cashews per day"
+        },
+        "middleAge": {
+          "benefit": "Helps heart health and cholesterol control",
+          "recommendedAmount": "8-12 cashews per day"
+        },
+        "old": {
+          "benefit": "Supports digestion and keeps joints healthy",
+          "recommendedAmount": "6-10 cashews per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause digestive heaviness; too little reduces energy.",
+        "summer": "Safe. Excess may increase internal heat; too little reduces benefits.",
+        "spring": "Safe. Overeating may cause mild stomach discomfort; too little reduces energy.",
+        "autumn": "Safe. Overeating may increase body heat; too little reduces benefits."
+      },
+      "exportInfo": { "exportQuality": "No", "majorExportCountries": [] }
+    },
+    "Walnut": {
+      "bestProvinces": ["Bamyan", "Parwan"],
+      "quality": "High",
+      "expectedPricePerKg": "1400 - 2000 PKR",
+      "storage": "Refrigeration recommended to avoid oiliness.",
+      "commonUses": ["Snacks", "Baking", "Salads"],
+      "maximumShelfLife": "6 months",
+      "localNames": {
+        "pashto": "چارمغز / اخروټ",
+        "pashtoRoman": "Charmaghz / Akhrot",
+        "dari": "چارمغز / گردو",
+        "dariRoman": "Charmaghz / Gerdoo",
+        "urdu": "اخروٹ",
+        "urduRoman": "Akhrot"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports brain growth and memory",
+          "recommendedAmount": "3-5 walnuts per day"
+        },
+        "young": {
+          "benefit": "Helps with energy and heart health",
+          "recommendedAmount": "4-6 walnuts per day"
+        },
+        "middleAge": {
+          "benefit": "Good for cholesterol control",
+          "recommendedAmount": "4-6 walnuts per day"
+        },
+        "old": {
+          "benefit": "Supports joints and memory",
+          "recommendedAmount": "3-5 walnuts per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may lead to high calorie intake; too little reduces brain and energy benefits.",
+        "summer": "Safe. Too much may cause digestive heaviness; too little reduces benefits.",
+        "spring": "Safe. Excess may cause mild stomach issues; too little reduces benefits.",
+        "autumn": "Safe. Overeating may increase body weight; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["China", "UAE"]
+      }
+    },
+    "Raisin": {
+      "bestProvinces": ["Kandahar", "Herat"],
+      "quality": "Medium",
+      "expectedPricePerKg": "900 - 1300 PKR",
+      "storage": "Keep in airtight container in cool, dry place.",
+      "commonUses": ["Snacks", "Baking", "Cooking"],
+      "maximumShelfLife": "12 months",
+      "localNames": {
+        "pashto": "کشمش",
+        "pashtoRoman": "Kishmish",
+        "dari": "کشمش",
+        "dariRoman": "Kishmish",
+        "urdu": "کشمش",
+        "urduRoman": "Kishmish"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Boosts energy and iron levels",
+          "recommendedAmount": "10-15 raisins per day"
+        },
+        "young": {
+          "benefit": "Good for immunity and energy",
+          "recommendedAmount": "15-20 raisins per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart and bone health",
+          "recommendedAmount": "12-18 raisins per day"
+        },
+        "old": {
+          "benefit": "Helps digestion and energy",
+          "recommendedAmount": "10-15 raisins per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause sugar spike; too little reduces energy benefits.",
+        "summer": "Safe. Excess may cause mild dehydration; too little reduces benefits.",
+        "spring": "Safe. Too much may upset stomach; too little reduces energy.",
+        "autumn": "Safe. Overeating may cause mild sugar imbalance; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["India", "UAE"]
+      }
+    },
+    "Peanut": {
+      "bestProvinces": ["Helmand", "Kandahar"],
+      "quality": "Medium",
+      "expectedPricePerKg": "700 - 1000 PKR",
+      "storage": "Store in airtight container away from moisture.",
+      "commonUses": ["Snacks", "Cooking", "Peanut butter"],
+      "maximumShelfLife": "8 months",
+      "localNames": {
+        "pashto": "مغز زمينی",
+        "pashtoRoman": "Maghz Zmini",
+        "dari": "بادام زمینی",
+        "dariRoman": "Badam Zamini",
+        "urdu": "مونگ پھلی",
+        "urduRoman": "Moong Phali"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports growth and energy",
+          "recommendedAmount": "5-10 peanuts per day"
+        },
+        "young": {
+          "benefit": "Boosts stamina and immunity",
+          "recommendedAmount": "10-15 peanuts per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart and energy levels",
+          "recommendedAmount": "8-12 peanuts per day"
+        },
+        "old": {
+          "benefit": "Good for digestion and bones",
+          "recommendedAmount": "6-10 peanuts per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause heaviness; too little reduces energy benefits.",
+        "summer": "Safe. Excess may raise body heat; too little reduces benefits.",
+        "spring": "Safe. Too much may cause digestive issues; too little reduces energy.",
+        "autumn": "Safe. Overeating may increase internal heat; too little reduces benefits."
+      },
+      "exportInfo": { "exportQuality": "No", "majorExportCountries": [] }
+    }
+  },
+  "Pakistan": {
+    "Almond": {
+      "bestProvinces": ["Balochistan", "KPK"],
+      "quality": "High",
+      "expectedPricePerKg": "1400 - 2000 PKR",
+      "storage": "Keep in airtight jar in cool, dark place.",
+      "commonUses": ["Snacks", "Baking", "Milk"],
+      "maximumShelfLife": "12 months",
+      "localNames": {
+        "pashto": "بادام",
+        "pashtoRoman": "Badam",
+        "dari": "بادام",
+        "dariRoman": "Badam",
+        "urdu": "بادام",
+        "urduRoman": "Badam"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports brain development and growth",
+          "recommendedAmount": "5-10 almonds per day"
+        },
+        "young": {
+          "benefit": "Increases energy and immunity",
+          "recommendedAmount": "10-15 almonds per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart health",
+          "recommendedAmount": "8-12 almonds per day"
+        },
+        "old": {
+          "benefit": "Helps bones and digestion",
+          "recommendedAmount": "6-10 almonds per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause acidity; too little reduces energy benefits.",
+        "summer": "Safe. Excess may increase body heat; too little reduces benefits.",
+        "spring": "Safe. Overeating may cause mild digestive discomfort; too little reduces benefits.",
+        "autumn": "Safe. Overeating may increase internal heat; too little reduces energy."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["China", "UAE"]
+      }
+    },
+    "Pistachio": {
+      "bestProvinces": ["Balochistan", "KPK"],
+      "quality": "High",
+      "expectedPricePerKg": "2200 - 2800 PKR",
+      "storage": "Store in airtight container in cool, dry place.",
+      "commonUses": ["Snacks", "Desserts", "Ice cream topping"],
+      "maximumShelfLife": "10 months",
+      "localNames": {
+        "pashto": "پستې",
+        "pashtoRoman": "Piste",
+        "dari": "پسته",
+        "dariRoman": "Pesteh",
+        "urdu": "پستہ",
+        "urduRoman": "Pista"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports growth and brain development",
+          "recommendedAmount": "5-8 pistachios per day"
+        },
+        "young": {
+          "benefit": "Provides energy and heart benefits",
+          "recommendedAmount": "10-15 pistachios per day"
+        },
+        "middleAge": {
+          "benefit": "Supports cardiovascular health",
+          "recommendedAmount": "8-12 pistachios per day"
+        },
+        "old": {
+          "benefit": "Promotes brain and bone health",
+          "recommendedAmount": "6-10 pistachios per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause cold-related stomach issues; too little reduces energy benefits.",
+        "summer": "Safe. Excess may cause mild digestive discomfort; too little reduces benefits.",
+        "spring": "Safe. Excess may cause digestive issues; too little reduces energy.",
+        "autumn": "Safe. Overeating may cause mild stomach discomfort; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["Turkey", "India"]
+      }
+    },
+    "Cashew": {
+      "bestProvinces": ["Sindh", "Balochistan"],
+      "quality": "Medium",
+      "expectedPricePerKg": "1800 - 2400 PKR",
+      "storage": "Store in airtight container away from sunlight.",
+      "commonUses": ["Snacks", "Cooking", "Desserts"],
+      "maximumShelfLife": "8 months",
+      "localNames": {
+        "pashto": "کاجو",
+        "pashtoRoman": "Kajo",
+        "dari": "کاجو",
+        "dariRoman": "Kajo",
+        "urdu": "کاجو",
+        "urduRoman": "Kaju"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports brain and bone development",
+          "recommendedAmount": "5-10 cashews per day"
+        },
+        "young": {
+          "benefit": "Boosts energy and immunity",
+          "recommendedAmount": "10-15 cashews per day"
+        },
+        "middleAge": {
+          "benefit": "Helps heart health and cholesterol control",
+          "recommendedAmount": "8-12 cashews per day"
+        },
+        "old": {
+          "benefit": "Supports digestion and keeps joints healthy",
+          "recommendedAmount": "6-10 cashews per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause digestive heaviness; too little reduces energy benefits.",
+        "summer": "Safe. Excess may increase internal heat; too little reduces benefits.",
+        "spring": "Safe. Overeating may cause mild stomach discomfort; too little reduces energy.",
+        "autumn": "Safe. Overeating may increase body heat; too little reduces benefits."
+      },
+      "exportInfo": { "exportQuality": "No", "majorExportCountries": [] }
+    },
+    "Walnut": {
+      "bestProvinces": ["Balochistan", "KPK"],
+      "quality": "High",
+      "expectedPricePerKg": "1400 - 2000 PKR",
+      "storage": "Refrigeration recommended to avoid oiliness.",
+      "commonUses": ["Snacks", "Baking", "Salads"],
+      "maximumShelfLife": "6 months",
+      "localNames": {
+        "pashto": "چارمغز / اخروټ",
+        "pashtoRoman": "Charmaghz / Akhrot",
+        "dari": "چارمغز / گردو",
+        "dariRoman": "Charmaghz / Gerdoo",
+        "urdu": "اخروٹ",
+        "urduRoman": "Akhrot"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports brain growth and memory",
+          "recommendedAmount": "3-5 walnuts per day"
+        },
+        "young": {
+          "benefit": "Helps with energy and heart health",
+          "recommendedAmount": "4-6 walnuts per day"
+        },
+        "middleAge": {
+          "benefit": "Good for cholesterol control",
+          "recommendedAmount": "4-6 walnuts per day"
+        },
+        "old": {
+          "benefit": "Supports joints and memory",
+          "recommendedAmount": "3-5 walnuts per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may lead to high calorie intake; too little reduces brain and energy benefits.",
+        "summer": "Safe. Too much may cause digestive heaviness; too little reduces benefits.",
+        "spring": "Safe. Excess may cause mild stomach issues; too little reduces benefits.",
+        "autumn": "Safe. Overeating may increase body weight; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["China", "UAE"]
+      }
+    },
+    "Raisin": {
+      "bestProvinces": ["Punjab", "Sindh"],
+      "quality": "Medium",
+      "expectedPricePerKg": "900 - 1300 PKR",
+      "storage": "Keep in airtight container in cool, dry place.",
+      "commonUses": ["Snacks", "Baking", "Cooking"],
+      "maximumShelfLife": "12 months",
+      "localNames": {
+        "pashto": "کشمش",
+        "pashtoRoman": "Kishmish",
+        "dari": "کشمش",
+        "dariRoman": "Kishmish",
+        "urdu": "کشمش",
+        "urduRoman": "Kishmish"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Boosts energy and iron levels",
+          "recommendedAmount": "10-15 raisins per day"
+        },
+        "young": {
+          "benefit": "Good for immunity and energy",
+          "recommendedAmount": "15-20 raisins per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart and bone health",
+          "recommendedAmount": "12-18 raisins per day"
+        },
+        "old": {
+          "benefit": "Helps digestion and energy",
+          "recommendedAmount": "10-15 raisins per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause sugar spike; too little reduces energy benefits.",
+        "summer": "Safe. Excess may cause mild dehydration; too little reduces benefits.",
+        "spring": "Safe. Too much may upset stomach; too little reduces energy.",
+        "autumn": "Safe. Overeating may cause mild sugar imbalance; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["India", "UAE"]
+      }
+    },
+    "Peanut": {
+      "bestProvinces": ["Punjab", "Sindh"],
+      "quality": "Medium",
+      "expectedPricePerKg": "700 - 1000 PKR",
+      "storage": "Store in airtight container away from moisture.",
+      "commonUses": ["Snacks", "Cooking", "Peanut butter"],
+      "maximumShelfLife": "8 months",
+      "localNames": {
+        "pashto": "مغز زمينی",
+        "pashtoRoman": "Maghz Zmini",
+        "dari": "بادام زمینی",
+        "dariRoman": "Badam Zamini",
+        "urdu": "مونگ پھلی",
+        "urduRoman": "Moong Phali"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports growth and energy",
+          "recommendedAmount": "5-10 peanuts per day"
+        },
+        "young": {
+          "benefit": "Boosts stamina and immunity",
+          "recommendedAmount": "10-15 peanuts per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart and energy levels",
+          "recommendedAmount": "8-12 peanuts per day"
+        },
+        "old": {
+          "benefit": "Good for digestion and bones",
+          "recommendedAmount": "6-10 peanuts per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause heaviness; too little reduces energy benefits.",
+        "summer": "Safe. Excess may raise body heat; too little reduces benefits.",
+        "spring": "Safe. Too much may cause digestive issues; too little reduces energy.",
+        "autumn": "Safe. Overeating may increase internal heat; too little reduces benefits."
+      },
+      "exportInfo": { "exportQuality": "No", "majorExportCountries": [] }
+    },
+    "Fig": {
+      "bestProvinces": ["Punjab", "Balochistan"],
+      "quality": "Medium",
+      "expectedPricePerKg": "1200 - 1600 PKR",
+      "storage": "Keep in cool dry place or refrigerate for longer shelf life.",
+      "commonUses": ["Snacks", "Cooking", "Desserts"],
+      "maximumShelfLife": "6 months",
+      "localNames": {
+        "pashto": "انجیر",
+        "pashtoRoman": "Anjir",
+        "dari": "انجیر",
+        "dariRoman": "Anjir",
+        "urdu": "انجیر",
+        "urduRoman": "Anjir"
+      },
+      "dietInfo": {
+        "children": {
+          "benefit": "Supports digestion and energy",
+          "recommendedAmount": "3-5 figs per day"
+        },
+        "young": {
+          "benefit": "Boosts energy and immunity",
+          "recommendedAmount": "4-6 figs per day"
+        },
+        "middleAge": {
+          "benefit": "Supports heart and digestion",
+          "recommendedAmount": "3-5 figs per day"
+        },
+        "old": {
+          "benefit": "Good for digestion and bones",
+          "recommendedAmount": "3-5 figs per day"
+        }
+      },
+      "seasonCaution": {
+        "winter": "Safe. Overeating may cause mild digestive heaviness; too little reduces benefits.",
+        "summer": "Safe. Excess may raise body heat; too little reduces benefits.",
+        "spring": "Safe. Overeating may upset stomach; too little reduces energy.",
+        "autumn": "Safe. Excess may increase internal heat; too little reduces benefits."
+      },
+      "exportInfo": {
+        "exportQuality": "Yes",
+        "majorExportCountries": ["India", "UAE"]
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "product": "Almond",
+    "description": "Rich in healthy fats, protein, and vitamin E. Often eaten raw or roasted.",
+    "calories": 576,
+    "protein": 21,
+    "carbs": 22,
+    "fats": 49,
+    "price": 1200,
+    "province": "68b29c29d1c6e53e43a4f41a",
+    "shop": "68b6fff3b959ccf831d481d1"
+  },
+  {
+    "product": "Cashew",
+    "description": "Creamy and rich nut, often used in sweets and snacks.",
+    "calories": 553,
+    "protein": 18,
+    "carbs": 30,
+    "fats": 44,
+    "price": 1500,
+    "province": "68b29c29d1c6e53e43a4f418",
+    "shop": "68b7000bb959ccf831d481d3"
+  },
+  {
+    "product": "Fig",
+    "description": "Sweet fruit rich in fiber, calcium, and antioxidants.",
+    "calories": 249,
+    "protein": 3,
+    "carbs": 64,
+    "fats": 1,
+    "price": 800,
+    "province": "68b29e94da77460e5356024f",
+    "shop": "68b70020b959ccf831d481d5"
+  },
+  {
+    "product": "Raisin",
+    "description": "Dried grapes, rich in natural sugars and iron.",
+    "calories": 299,
+    "protein": 3,
+    "carbs": 79,
+    "fats": 0,
+    "price": 700,
+    "province": "68b29c29d1c6e53e43a4f419",
+    "shop": "68b70031b959ccf831d481d7"
+  },
+  {
+    "product": "Peanut",
+    "description": "Affordable nut rich in protein and healthy fats.",
+    "calories": 567,
+    "protein": 26,
+    "carbs": 16,
+    "fats": 49,
+    "price": 500,
+    "province": "68b29e94da77460e5356024f",
+    "shop": "68b7000bb959ccf831d481d3"
+  },
+  {
+    "product": "Pistachio",
+    "description": "Nut with high fiber and antioxidants, often eaten salted.",
+    "calories": 562,
+    "protein": 20,
+    "carbs": 28,
+    "fats": 45,
+    "price": 2000,
+    "province": "68b29c29d1c6e53e43a4f41a",
+    "shop": "68b6fff3b959ccf831d481d1"
+  },
+  {
+    "product": "Walnut",
+    "description": "Rich in omega-3 fatty acids and antioxidants.",
+    "calories": 654,
+    "protein": 15,
+    "carbs": 14,
+    "fats": 65,
+    "price": 1600,
+    "province": "68b41d4b9d5e6ba19f75855d",
+    "shop": "68b70020b959ccf831d481d5"
+  }
+]
