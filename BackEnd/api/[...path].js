@@ -1,5 +1,5 @@
-const app = require("../BackEnd/app");
-const connectDB = require("../BackEnd/confiq/db");
+const app = require("../app");
+const connectDB = require("../confiq/db");
 
 let dbReady = null;
 if (!dbReady) {
@@ -10,3 +10,4 @@ module.exports = async (req, res) => {
   await dbReady;
   return app(req, res);
 };
+
