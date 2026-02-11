@@ -1,25 +1,23 @@
 const app = require("../app");
 const connectDB = require("../config/db");
 
-// Ensure DB connects only once for serverless
+// Connect DB once
 let dbReady = null;
-if (!dbReady) {
-  dbReady = connectDB();
-}
+if (!dbReady) dbReady = connectDB();
 
 module.exports = async (req, res) => {
   try {
-    await dbReady; // wait for DB connection
+    await dbReady;
 
-    // If root path '/', print Hello World
+    // Root path
     if (req.url === "/" && req.method === "GET") {
       return res.status(200).send("Hello World");
     }
 
-    // Otherwise, pass request to Express app
+    // Let Express handle all other routes
     return app(req, res);
   } catch (err) {
-    console.error("❌ Server error:", err.message);
+    console.error(err);
     return res.status(500).json({
       status: "error",
       message: "Internal Server Error",
