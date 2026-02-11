@@ -1,0 +1,306 @@
+/* Modern Footer Design */
+.Main-footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  padding: 60px 60px 40px;
+  font-family: var(--font-primary);
+  color: #f8fafc;
+  border-top: 3px solid #fb923c;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #fb923c, transparent);
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.logo-footer,
+.Quick-Links,
+.Contat-us,
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  min-width: 220px;
+  transition: transform 0.3s ease;
+}
+
+.logo-footer:hover,
+.Quick-Links:hover,
+.Contat-us:hover,
+.follow-us:hover {
+  transform: translateY(-5px);
+}
+
+.logo-footer h1,
+.Quick-Links h1,
+.Contat-us h1,
+.follow-us h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: #f8fafc;
+  letter-spacing: 0.05em;
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.logo-footer h1::after,
+.Quick-Links h1::after,
+.Contat-us h1::after,
+.follow-us h1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, #fb923c, #f97316);
+  border-radius: 1px;
+}
+
+@keyframes floatText {
+  0% {
+    transform: translateY(0);
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.9;
+  }
+}
+
+.footer-img img {
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.footer-img img:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 12px 32px rgba(251, 146, 60, 0.3);
+}
+
+.project-by {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.Quick-Links div,
+.Contat-us span {
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 4px 0;
+  position: relative;
+}
+
+.Quick-Links div::before,
+.Contat-us span::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #fb923c, #f97316);
+  transition: width 0.3s ease;
+}
+
+.Quick-Links div:hover::before,
+.Contat-us span:hover::before {
+  width: 100%;
+}
+
+.Quick-Links div:hover,
+.Contat-us span:hover {
+  color: #fb923c;
+  transform: translateX(5px);
+}
+
+.Contat-us span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.follow-us .socail-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.follow-us .socail-item span:hover {
+  color: #fb923c;
+}
+
+.face-book,
+.LinkedIn,
+.Instagram {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.face-book:hover,
+.LinkedIn:hover,
+.Instagram:hover {
+  transform: scale(1.05);
+  background: rgba(251, 146, 60, 0.1);
+  border-color: #fb923c;
+  box-shadow: 0 4px 16px rgba(251, 146, 60, 0.2);
+}
+
+.footer-bottom {
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  padding: 24px 0;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  border-top: 1px solid rgba(251, 146, 60, 0.3);
+  font-family: var(--font-primary);
+  position: relative;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.Instagram span a,
+.LinkedIn span a,
+.face-book span a {
+  border: none;
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.groa {
+  text-decoration: none;
+  color: #f8fafc;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.groa:hover {
+  color: #fb923c;
+  text-decoration: none;
+}
+
+.Instagram span a:hover,
+.LinkedIn span a:hover,
+.face-book span a:hover {
+  color: #fb923c;
+  text-decoration: none;
+}
+
+.qli {
+  text-decoration: none;
+  color: #f8fafc;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 4px 0;
+  position: relative;
+}
+
+.qli:hover {
+  color: #fb923c;
+  text-decoration: none;
+}
+
+.qli::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #fb923c, #f97316);
+  transition: width 0.3s ease;
+}
+
+.qli:hover::before {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Main-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .logo-footer,
+  .Quick-Links,
+  .Contat-us,
+  .follow-us {
+    min-width: 100%;
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .Main-footer {
+    padding: 30px 15px;
+  }
+
+  .logo-footer h1,
+  .Quick-Links h1,
+  .Contat-us h1,
+  .follow-us h1 {
+    font-size: 1.1rem;
+  }
+
+  .footer-img img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .project-by {
+    font-size: 0.8rem;
+  }
+}

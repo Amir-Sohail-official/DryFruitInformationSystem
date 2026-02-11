@@ -1,0 +1,118 @@
+.uploadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #f5f7fa;
+  background-image: url("/src/images/berke-can-at7Xfh_6TEM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+}
+
+.uploadCard {
+  background: white;
+  padding: 40px 32px;
+  border-radius: 22px;
+  width: 380px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+}
+
+.uploadCard:hover {
+  transform: translateY(-3px);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #2a2a2a;
+}
+
+.customFileUpload input {
+  display: none;
+}
+
+/* Custom upload button */
+.customFileUpload {
+  background: #eef3ff;
+  color: #3a57d0;
+  padding: 12px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 18px;
+  border: 1px solid #d9e2ff;
+  transition: 0.3s;
+}
+
+.customFileUpload:hover {
+  background: #dfe7ff;
+}
+
+/* Preview Image */
+.previewImage {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 3px solid #e6e9f0;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Upload Button */
+.uploadButton {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+.uploadButton:hover {
+  background-color: #0056b3;
+}
+
+/* Message text */
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: green;
+}
+
+/* Chips */
+.nutrition-chip,
+.vitamin-chip,
+.mineral-chip {
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.nutrition-chip {
+  background: #eef3ff;
+  color: #3a57d0;
+}
+
+.vitamin-chip {
+  background: #fff1c9;
+  color: #c07b00;
+}
+
+.mineral-chip {
+  background: #e0f5ff;
+  color: #0077a7;
+}

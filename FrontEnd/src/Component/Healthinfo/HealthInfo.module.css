@@ -1,0 +1,351 @@
+/* Clean & Professional Health Info Design */
+.container {
+  max-width: 1000px;
+  margin: 4.5rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.backButton {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.backButton:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #475569;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+  flex-grow: 1;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.description {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.sectionTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2rem 0 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.sectionTitle.green {
+  color: #065f46;
+  background: #dcfce7;
+  border: 1px solid #bbf7d0;
+}
+
+.sectionTitle.red {
+  color: #991b1b;
+  background: #fee2e2;
+  border: 1px solid #fecaca;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.greenCard {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+
+.greenCard:hover {
+  background: #dcfce7;
+  border-color: #86efac;
+}
+
+.redCard {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+}
+
+.redCard:hover {
+  background: #fee2e2;
+  border-color: #fca5a5;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+  border: 3px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 0.8rem;
+}
+
+.greenCard .name {
+  color: #065f46;
+}
+
+.redCard .name {
+  color: #991b1b;
+}
+
+.quantity {
+  font-size: 0.9rem;
+  color: #64748b;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  background: #f8fafc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 16px;
+  display: inline-block;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.greenCard .quantity {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+  color: #065f46;
+}
+
+.redCard .quantity {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+.reason {
+  font-size: 0.85rem;
+  color: #64748b;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0.8rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-weight: 500;
+}
+
+.greenCard .reason {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+  color: #065f46;
+}
+
+.redCard .reason {
+  background: #fef2f2;
+  border-color: #fecaca;
+  color: #991b1b;
+}
+
+.missing {
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.noProductCard {
+  padding: 1.5rem;
+  text-align: center;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+}
+
+.noAvoidSection {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.noAvoidMessage {
+  font-size: 1rem;
+  color: #64748b;
+  padding: 1.5rem;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.loading {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 1rem;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loading::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e2e8f0;
+  border-top: 3px solid #0ea5e9;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+
+  .image {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .quantity {
+    font-size: 0.85rem;
+  }
+
+  .reason {
+    font-size: 0.8rem;
+  }
+}

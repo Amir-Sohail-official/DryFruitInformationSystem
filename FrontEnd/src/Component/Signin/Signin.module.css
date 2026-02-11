@@ -1,0 +1,186 @@
+/* ===================================================
+   SIGN IN PAGE — ENTERPRISE / SENIOR LEVEL UI
+   (CSS MODULE — DO NOT CHANGE CLASS NAMES)
+   =================================================== */
+
+.signicontainr {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+ background: #020617;
+}
+
+/* Main Card */
+.siginmaindiv {
+  width: 100%;
+  max-width: 430px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 48px 40px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  animation: fadeUp 0.6s ease forwards;
+  margin-top: 100px;
+}
+
+/* Title */
+.siginmaindiv h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #111827;
+  margin-bottom: 32px;
+}
+
+/* Form */
+.signinform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input group */
+.inputgroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Inputs */
+.sigininput {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+  transition: all 0.25s ease;
+}
+
+.sigininput::placeholder {
+  color: #9ca3af;
+}
+
+.sigininput:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+/* Error */
+.error {
+  font-size: 13px;
+  color: #dc2626;
+  margin-top: 2px;
+}
+
+/* Button wrapper */
+.mydiv {
+  margin-top: 8px;
+}
+
+/* Primary Button */
+.signinbutton {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.signinbutton:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+.signinbutton:active {
+  transform: translateY(0);
+}
+
+.signinbutton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Text under form */
+.nothaveaccount {
+  display: block;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Signup button */
+.signupbtn {
+  background: none;
+  border: none;
+  display: block;
+  margin: 6px auto 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.signupbtn:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .siginmaindiv {
+    padding: 36px 24px;
+  }
+
+  .siginmaindiv h2 {
+    font-size: 24px;
+  }
+}
+
+/* Dark Mode Ready */
+@media (prefers-color-scheme: dark) {
+  .signicontainr {
+    background: linear-gradient(135deg, #020617, #020617);
+  }
+
+  .siginmaindiv {
+    background: #111827;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  }
+
+  .siginmaindiv h2 {
+    color: #f9fafb;
+  }
+
+  .sigininput {
+    background: #020617;
+    border-color: #1f2937;
+    color: #f9fafb;
+  }
+
+  .nothaveaccount {
+    color: #9ca3af;
+  }
+}

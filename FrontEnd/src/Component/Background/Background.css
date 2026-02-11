@@ -1,0 +1,45 @@
+.main-background {
+  box-sizing: border-box;
+  background-image: url("../../images/vd-photography-pnSWzbL_S40-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  padding-left: 5%;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  animation: moveBackground 15s infinite linear alternate;
+}
+.text-container {
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 20px;
+}
+h1 {
+  font-size: var(--font-size-4xl);
+  margin-bottom: 20px;
+  font-weight: var(--font-weight-light);
+  font-family: var(--font-primary);
+}
+p {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  font-family: var(--font-primary);
+  color: white;
+}
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
