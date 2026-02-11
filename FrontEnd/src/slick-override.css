@@ -1,0 +1,74 @@
+/* ============================================
+   SLICK CAROUSEL OVERRIDE - Fix Card Spacing
+   ============================================ */
+
+/* Override slick-carousel default styles */
+.product_cards .slick-slider {
+  position: relative !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+.product_cards .slick-list {
+  position: relative !important;
+  display: block !important;
+  overflow: hidden !important;
+  margin: 0 -15px !important;
+  padding: 20px 15px !important;
+}
+
+.product_cards .slick-track {
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  display: flex !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  align-items: stretch !important;
+}
+
+.product_cards .slick-slide {
+  display: block !important;
+  height: auto !important;
+  min-height: 1px !important;
+  padding: 0 15px !important;
+  box-sizing: border-box !important;
+}
+
+.product_cards .slick-slide > div {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+}
+
+/* Ensure cards inside slides have proper spacing */
+.product_cards .slick-slide .product_cards {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.product_cards .slick-slide .product_card_main {
+  width: 100% !important;
+  max-width: 350px !important;
+  min-width: 300px !important;
+  margin: 0 auto !important;
+  flex-shrink: 0 !important;
+  height: auto !important;
+}
+
+/* Remove any default slick spacing that causes merging */
+.product_cards .slick-slide.slick-active {
+  outline: none !important;
+}
+
+.product_cards .slick-slide.slick-current {
+  outline: none !important;
+}
+
+/* Fix arrows positioning */
+.product_cards .slick-arrow {
+  z-index: 10 !important;
+}
+

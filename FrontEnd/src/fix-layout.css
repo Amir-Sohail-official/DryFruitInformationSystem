@@ -1,0 +1,119 @@
+/* ============================================
+   FIX LAYOUT ISSUES - Force Styles
+   This file fixes merged cards and alignment issues
+   ============================================ */
+
+/* Fix Product Cards Spacing */
+.product_cards {
+  padding: 0 30px 0 0 !important;
+  margin-top: 50px !important;
+  margin-bottom: 40px !important;
+  position: relative !important;
+}
+
+/* Fix Slick Carousel Card Spacing - CRITICAL */
+.product_cards .slick-slide {
+  padding: 0 15px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  height: auto !important;
+}
+
+.product_cards .slick-slide > div {
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.product_cards .slick-list {
+  margin: 0 -15px !important;
+  padding: 20px 15px !important;
+  overflow: visible !important;
+}
+
+.product_cards .slick-track {
+  display: flex !important;
+  align-items: stretch !important;
+  gap: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Ensure cards don't merge - FIXED WIDTH WITH SPACING */
+.product_cards .slick-slide .product_card_main {
+  width: 100% !important;
+  max-width: 350px !important;
+  min-width: 300px !important;
+  margin: 0 auto !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto !important;
+}
+
+/* Override any slick-carousel default styles */
+.product_cards .slick-slide.slick-active {
+  outline: none !important;
+}
+
+.product_cards .slick-slide.slick-current {
+  outline: none !important;
+}
+
+/* Fix Navbar Alignment */
+.main-nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.text-div {
+  display: flex !important;
+  align-items: center !important;
+  gap: 32px !important;
+  white-space: nowrap !important;
+}
+
+.text-div .nav-link {
+  white-space: nowrap !important;
+  text-align: center !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px 12px !important;
+}
+
+/* Fix navbar text wrapping */
+.text-div a,
+.text-div button,
+.text-div div {
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+}
+
+/* Fix search input alignment */
+.input-search {
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+
+/* Override Bootstrap */
+.navbar,
+.navbar-nav,
+.nav-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Fix any Bootstrap card conflicts */
+.card {
+  margin-bottom: 0 !important;
+}
+
+/* Ensure proper spacing */
+.product_cards > * {
+  margin: 0 !important;
+}
+

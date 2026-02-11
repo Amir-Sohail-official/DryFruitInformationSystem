@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63bff04a.css",
+    "main.js": "/static/js/main.33cf7b3f.js",
+    "static/js/453.bdfb701b.chunk.js": "/static/js/453.bdfb701b.chunk.js",
+    "static/media/vd-photography-pnSWzbL_S40-unsplash.jpg": "/static/media/vd-photography-pnSWzbL_S40-unsplash.ad482639e7928791e86f.jpg",
+    "static/media/am3.jpg": "/static/media/am3.d8d7e2d6c7a89e76d66c.jpg",
+    "static/media/berke-can-at7Xfh_6TEM-unsplash.jpg": "/static/media/berke-can-at7Xfh_6TEM-unsplash.9ef5f25b53ee94d17d55.jpg",
+    "static/media/mockupo-18uzMKQxYA4-unsplash.jpg": "/static/media/mockupo-18uzMKQxYA4-unsplash.760155a3deae16935292.jpg",
+    "static/media/as1.jpg": "/static/media/as1.93ea33c429e855b9e0cf.jpg",
+    "static/media/fernando-hernandez-CosHjyONRk8-unsplash.jpg": "/static/media/fernando-hernandez-CosHjyONRk8-unsplash.d93f9562614f7106292b.jpg",
+    "static/media/growtika-9WnjxT1NCoY-unsplash.jpg": "/static/media/growtika-9WnjxT1NCoY-unsplash.1c3ca429d72e6974f0c5.jpg",
+    "static/media/Asmat-khan.jpg": "/static/media/Asmat-khan.f4901c929541c9e653e7.jpg",
+    "static/media/dryfruti.jpg": "/static/media/dryfruti.265f35219d31e066f7ca.jpg",
+    "static/media/Saif.jpg": "/static/media/Saif.ea9b7bd3bf1446e41500.jpg",
+    "static/media/WhatsApp Image 2025-12-02 at 00.20.27_abdbcf1c.jpg": "/static/media/WhatsApp Image 2025-12-02 at 00.20.27_abdbcf1c.08264dbc776cfec60487.jpg",
+    "static/media/as2.jpg": "/static/media/as2.c5ad0d0e269a2ba4f2e8.jpg",
+    "static/media/contact us.jpg": "/static/media/contact us.df7e2f3fada54179eaac.jpg",
+    "static/media/food-logo.png": "/static/media/food-logo.1b685cd23f82e604b2de.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.63bff04a.css.map": "/static/css/main.63bff04a.css.map",
+    "main.33cf7b3f.js.map": "/static/js/main.33cf7b3f.js.map",
+    "453.bdfb701b.chunk.js.map": "/static/js/453.bdfb701b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63bff04a.css",
+    "static/js/main.33cf7b3f.js"
+  ]
+}
